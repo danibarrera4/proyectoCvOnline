@@ -1,0 +1,229 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*navegador*/
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    }
+
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    }
+
+    nav li {
+    display: inline-block;
+    margin: 0 1rem;
+    }
+
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    nav a:hover {
+    border-bottom: 2px solid #fff;
+    }
+
+/*portada*/
+  .header {
+    /*background-image: url('https://via.placeholder.com/1200x450');*/
+    background-image: url('portada.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+    }
+    .image {
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .image-text{
+      position: absolute;
+      
+        left: 60px;
+        bottom: -50px;
+        color: white;
+    } 
+    .image img {
+        width: 200px;
+        height: 200px;
+    }
+  .container {
+    /*background-color: orange;*/
+    width: 100%;
+    height: 400px;
+    
+  }
+/*acerca de*/
+  .acerdaDemi {
+    /*background-color: orange;*/
+    height: 650px;
+    }
+    .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .col {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+/*educacion*/  
+      .education {
+        height: 650px;
+        background-color: #0984e3;
+        padding: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      article {
+        background-color: #dfe6e9;
+        padding: 20px;
+        margin-top: 10px;
+        width: 80%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+      }
+
+      i {
+        font-size: 100px;
+        color: #2d3436;
+        margin-right: 20px;
+      }
+
+      .text {
+        margin: 0 20px;
+      }
+/*proyectos */
+.proyectos{
+  background-color: red;
+  height: 650px;
+  text-align: center;
+}
+/*habilidades */
+      .habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+        /*background-color: #0984e3;*/
+
+        }
+
+      .habilidades h1{
+        padding-top: 20px;
+      }
+        .skill-bar {
+          display: flex;
+          align-items: center;
+          margin-top: 30px;
+          width: 80%;
+          
+          
+        }
+  
+        .bar {
+          height: 30px;
+          width: 0%;
+          background-color: #6c5ce7;
+          transition: width 0.5s ease-in-out;
+          border-radius: 5px;
+        }
+  
+        .html-bar {
+          width: 80%;
+        }
+  
+        .css-bar {
+          width: 75%;
+          background-color: #74b9ff;
+        }
+  
+        .js-bar {
+          width: 60%;
+          background-color: #00cec9;
+        }
+  
+        p {
+          margin-right: 20px;
+        }
+  
+        .percentage {
+          margin-left: 20px;
+          text-align: right;
+        }
+
+/*experiencia */
+.experiencia{
+  /*background-color: red;*/
+  background-color: #0984e3;
+  height: 600px;
+  text-align: center;
+}
+.experiencia h1{
+  
+  padding-top: 50px;
+}
+.experiencia-parrafos p{
+  padding: 40px 0 20px 20px;
+ 
+}
+
+/*pie de pagina*/
+  .footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .footer a {
+    color: white;
+    margin: 0 20px;
+  }
+
+
+  
